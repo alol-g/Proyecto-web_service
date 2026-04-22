@@ -41,22 +41,27 @@ proyecto/
 │
 ├── orquestador/
 │   ├── app.py
+│   ├── requirements.txt
 │   └── Dockerfile
-│
+│   
 ├── biblioteca/
 │   ├── app.py
+│   ├── requirements.txt
 │   └── Dockerfile
 │
 ├── escolares/
 │   ├── app.py
+│   ├── requirements.txt
 │   └── Dockerfile
 │
 ├── lab_redes/
 │   ├── app.py
+│   ├── requirements.txt
 │   └── Dockerfile
 │
 ├── lab_electronica/
 │   ├── app.py
+│   ├── requirements.txt
 │   └── Dockerfile
 │
 └── README.md 
