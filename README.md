@@ -37,33 +37,33 @@ Desarrollar un sistema distribuido funcional basado en microservicios, capaz de 
   - Lab. Electrónica
 
 ## Estructura
-proyecto/
-│
-├── orquestador/
-│   ├── app.py
-│   ├── requirements.txt
-│   └── Dockerfile
-│   
-├── biblioteca/
-│   ├── app.py
-│   ├── requirements.txt
-│   └── Dockerfile
-│
-├── escolares/
-│   ├── app.py
-│   ├── requirements.txt
-│   └── Dockerfile
-│
-├── lab_redes/
-│   ├── app.py
-│   ├── requirements.txt
-│   └── Dockerfile
-│
-├── lab_electronica/
-│   ├── app.py
-│   ├── requirements.txt
-│   └── Dockerfile
-│
+proyecto/ 
+│ 
+├── orquestador/ 
+│   ├── app.py 
+│   ├── requirements.txt 
+│   └── Dockerfile 
+│    
+├── biblioteca/ 
+│   ├── app.py 
+│   ├── requirements.txt 
+│   └── Dockerfile 
+│ 
+├── escolares/ 
+│   ├── app.py 
+│   ├── requirements.txt 
+│   └── Dockerfile 
+│ 
+├── lab_redes/ 
+│   ├── app.py 
+│   ├── requirements.txt 
+│   └── Dockerfile 
+│ 
+├── lab_electronica/ 
+│   ├── app.py 
+│   ├── requirements.txt 
+│   └── Dockerfile 
+│ 
 └── README.md 
 
 ## Licencia
