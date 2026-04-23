@@ -5,8 +5,10 @@ app = Flask(__name__)
 # Base de datos simulada
 ADEUDOS = {
     "2020001": {"adeudo": False, "detalle": "Sin pendientes"},
-    "2020002": {"adeudo": False, "detalle": "Derechos informaticos"},
-    "2020003": {"adeudo": True, "detalle": "Libro Sistemas"
+    "2020002": {"adeudo": True, "detalle": "Derechos informaticos"},
+    "2020003": {"adeudo": True, "detalle": "Sistema Operativos"},
+    "2020004": {"adeudo": False, "detalle": "Sin pendientes"},
+    "2020005": {"adeudo": True, "detalle": "Libro java para programadores"
     "Distribuidos' pendiente"}
 }
 @app.route('/check/<matricula>', methods=['GET'])
