@@ -37,6 +37,7 @@ Desarrollar un sistema distribuido funcional basado en microservicios, capaz de 
   - Lab. Electrónica
 
 ## Estructura
+```
 proyecto/ 
 │ 
 ├── orquestador/ 
@@ -65,7 +66,7 @@ proyecto/
 │   └── Dockerfile 
 │ 
 └── README.md 
-
+```
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT.
