@@ -2,11 +2,13 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-# Tu "Base de Datos" de control escolar 
+# Base de datos simulada para Escolares (con más ejemplos)
 ADEUDOS = {
     "2020001": {"adeudo": False, "detalle": "Documentación completa"},
     "2020002": {"adeudo": True, "detalle": "Falta certificado de bachillerato"},
-    "2020003": {"adeudo": False, "detalle": "Sin adeudos"}
+    "2020003": {"adeudo": False, "detalle": "Sin adeudos"},
+    "2020004": {"adeudo": True, "detalle": "Pendiente entrega de fotografías tamaño título"},
+    "2020005": {"adeudo": True, "detalle": "Falta liberación de Servicio Social"}
 }
 
 # Endpoint que consultará el Orquestador 
